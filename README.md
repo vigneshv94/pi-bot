@@ -1,6 +1,6 @@
 **PIBOT**
 
-![IMG-20140324-WA0000.jpg](Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.001.jpeg)
+![IMG-20140324-WA0000.jpg](./images/Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.001.jpeg)
 
 **Introduction**
 
@@ -42,7 +42,7 @@ The two main components that were decided upon were the Robot Chassis for the bo
 
 **Robot chassis kit**
 
-![Screenshot\_2014.04.14.15.58.29.png](Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.002.png)The robot chassis is a commercial robot vehicle kit available from several electronic and robot suppliers. The chassis appears to have been created with the Arduino in mind as the power connector from the battery pack matches with the Arduino power supply. This is something we will address later when we look at connecting the power supply to the Raspberry Pi. Instructions for assembling the kit are provided and are fairly easy to follow. When complete it should look like the photo’s below
+![Screenshot\_2014.04.14.15.58.29.png](./images/Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.002.png)The robot chassis is a commercial robot vehicle kit available from several electronic and robot suppliers. The chassis appears to have been created with the Arduino in mind as the power connector from the battery pack matches with the Arduino power supply. This is something we will address later when we look at connecting the power supply to the Raspberry Pi. Instructions for assembling the kit are provided and are fairly easy to follow. When complete it should look like the photo’s below
 
 Looking at the underside we can see how the robot vehicle will move around. There are two main drives wheels each of which is connected to its own motor. There is then caster which is effectively a large ball-bearing which can move in any direction.
 
@@ -52,7 +52,7 @@ The robot chassis appears to have been designed for use with the Arduino, which 
 
 **Image of Raspberry pi:**
 
-![RaspberryPi.jpg](Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.003.jpeg)
+![RaspberryPi.jpg](./images/Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.003.jpeg)
 
 
 
@@ -151,9 +151,9 @@ You can download it from: http://www.chiark.greenend.org.uk/~sgtatham/putty/
 
 You can either download the executable file putty.exe, which can be saved onto your local computer, or as an installer which includes a file transfer client and other tools. When you run PuTTY you will be presented with the following startup screen. You can enter the IP address of the Raspberry Pi 10.5.5.1 in “Host Name (or IP address)”. The port can be left at the default of 22 and then click open
 
-![](Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.004.png)This is the first time PuTTY has connected to this computer  and so it provides a security alert with some details about the computer so you can decide if that is the correct computer. If you want to check you are connecting to the correct computer then you can run the “ssh-keygen -l” command when physically connected to the Raspberry Pi. You will need to provide the appropriate file where SSH has stored the key. In reality if this is your local network and you know this is a computer you have not connected to before then you can just accept the connection using 'Yes'. If in future you get a warning that the key has changed then you should take extra care in case someone is masquerading as your computer, although if you have re-installed the computer that will also generate the same warning.
+![](./images/Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.004.png)This is the first time PuTTY has connected to this computer  and so it provides a security alert with some details about the computer so you can decide if that is the correct computer. If you want to check you are connecting to the correct computer then you can run the “ssh-keygen -l” command when physically connected to the Raspberry Pi. You will need to provide the appropriate file where SSH has stored the key. In reality if this is your local network and you know this is a computer you have not connected to before then you can just accept the connection using 'Yes'. If in future you get a warning that the key has changed then you should take extra care in case someone is masquerading as your computer, although if you have re-installed the computer that will also generate the same warning.
 
-![](Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.005.png)You will now be presented with a login prompt where you can login with the username and password for the Raspberry Pi. After logging on any commands entered will be run on the remote computer “Pibot” and not the computer that I am typing on. When using ssh get used to looking at the computer name on the command prompt before issuing a command to make sure you are on the right computer first.
+![](./images/Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.005.png)You will now be presented with a login prompt where you can login with the username and password for the Raspberry Pi. After logging on any commands entered will be run on the remote computer “Pibot” and not the computer that I am typing on. When using ssh get used to looking at the computer name on the command prompt before issuing a command to make sure you are on the right computer first.
 
 **Adding the Raspberry Pi to the robot chassis**
 
@@ -170,7 +170,7 @@ The L298N Dual H-Bridge Motor Driver is a great value and can be used with a var
 
 An onboard 5V regulator is provided that can be used to power other parts of your robot’s circuitry such as an Arduino microcontroller.
 
-![C:\Users\home\Desktop\L298MD\_LRG.JPG](Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.006.jpeg)**Usage**
+![C:\Users\home\Desktop\L298MD\_LRG.JPG](./images/Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.006.jpeg)**Usage**
 
 Follow the steps below to configure the motor controller board to work as a typical robot motor driver for use with two DC motors.
 
@@ -389,7 +389,7 @@ sudo ./stop.py
 
 
 
-![](Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.007.png)
+![](./images/Aspose.Words.a4f5a3ba-a6a3-4b51-b690-6eb3404885b2.007.png)
 
 
 
